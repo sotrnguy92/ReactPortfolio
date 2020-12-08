@@ -3,23 +3,7 @@ import React from 'react';
 export default function AboutMe() {
     return(
         <div>
-            <header>
-                <h1> Son Nguyen </h1>
-            </header>
 
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="./portfolio">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="./contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
             <main>
                 <section className="container">
 

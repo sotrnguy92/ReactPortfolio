@@ -3,22 +3,7 @@ import React from 'react';
 export default function Contact() {
     return(
         <div>
-            <header>
-                <h1>Son Nguyen</h1>
-            </header>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-                <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="nav-link" href="./index.html">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+
             <main>
                 <div className="container">
                     <section className="starter-template">
