@@ -3,7 +3,6 @@ import React from 'react';
 export default function Contact() {
     return(
         <div>
-
             <main>
                 <div className="container">
                     <section className="starter-template">
