@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.ab7136cd.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.cddc64b2.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.cddc64b2.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.1b9d3f7e.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.1b9d3f7e.js.map",
+    "static/js/2.1dd87dde.chunk.js": "/ReactPortfolio/static/js/2.1dd87dde.chunk.js",
+    "static/js/2.1dd87dde.chunk.js.map": "/ReactPortfolio/static/js/2.1dd87dde.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.ab7136cd.chunk.css.map": "/ReactPortfolio/static/css/main.ab7136cd.chunk.css.map",
+    "static/js/2.1dd87dde.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.1dd87dde.chunk.js.LICENSE.txt",
+    "static/media/DineOutside.867b9e65.png": "/ReactPortfolio/static/media/DineOutside.867b9e65.png",
+    "static/media/JavaQuiz.0261cc9c.png": "/ReactPortfolio/static/media/JavaQuiz.0261cc9c.png",
+    "static/media/TodoApp.25af71b4.png": "/ReactPortfolio/static/media/TodoApp.25af71b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b9d3f7e.js",
+    "static/js/2.1dd87dde.chunk.js",
+    "static/css/main.ab7136cd.chunk.css",
+    "static/js/main.cddc64b2.chunk.js"
+  ]
+}
