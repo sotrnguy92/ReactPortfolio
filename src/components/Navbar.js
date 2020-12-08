@@ -6,7 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import HomeIcon from '@material-ui/icons/Home';
 import Link from '@material-ui/core/Link';
-import { useHistory} from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -76,7 +76,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Navbar() {
     const classes = useStyles();
-    const preventDefault = (event) => event.preventDefault();
     const history = useHistory();
 
 
@@ -84,7 +83,12 @@ export default function Navbar() {
         <div className={classes.grow}>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton>
+                    <IconButton
+                    onClick={(e) => {
+                        e.preventDefault();
+                        history.push('/');
+                    }}
+                    >
                         <HomeIcon
                             style={{ color: "#fff" }}
                         />

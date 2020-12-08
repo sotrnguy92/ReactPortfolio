@@ -1,14 +1,11 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -23,8 +20,8 @@ function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
             {'Copyright © '}
-            <Link color="inherit" href="https://material-ui.com/">
-                Your Website
+            <Link color="inherit" href="https://github.com/sotrnguy92">
+                Son Nguyen
             </Link>{' '}
             {new Date().getFullYear()}
             {'.'}
@@ -64,7 +61,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export default function Album() {
     const classes = useStyles();
@@ -153,73 +149,12 @@ export default function Album() {
                     </Grid>
                 </Container>
             </main>
-            {/* Footer */}
             <footer className={classes.footer}>
-                <Typography variant="h6" align="center" gutterBottom>
-                    Footer
-                </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                    Something here to give the footer a purpose!
+                    Created by Son Nguyen
                 </Typography>
                 <Copyright />
             </footer>
-            {/* End footer */}
         </React.Fragment>
     );
 }
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-//
-// export default function Portfolio() {
-//     return(
-//         <div>
-//
-//             <main>
-//                 <div className="container">
-//                     <section className="starter-template justify-content-center">
-//                         <h1>Portfolio</h1>
-//                         <section className="container">
-//                             <div className="row">
-//                                 <div className="col-xs-4 ">
-//                                     <div className="array-item mb-5 box">
-//                                         <a href="https://github.com/sotrnguy92?tab=repositories">
-//                                             <img className="img-fluid" src="./Assets/Images/filler2.jpg"
-//                                                  alt="filler2_touchCalendar"/>
-//                                             <div className="bottom-text">Github Repo</div>
-//                                         </a>
-//                                     </div>
-//                                     <div className="array-item mb-5 box">
-//                                         <a href="https://baytamo.github.io/Project1/">
-//                                             <img className="img-fluid" src="./Assets/Images/project1.png"
-//                                                  alt="project 1 landing page"/>
-//                                             <div className="bottom-text">Project One</div>
-//                                         </a>
-//                                     </div>
-//                                     <div className="array-item mb-5 box">
-//                                         <img className="img-fluid" src="./Assets/Images/filler4.jpg"
-//                                              alt="filler4_alarmClock"/>
-//                                         <div className="bottom-text">Project: TBD</div>
-//                                     </div>
-//                                 </div>
-//                             </div>
-//                         </section>
-//                     </section>
-//                 </div>
-//             </main>
-//
-//             <footer className="pb-1 pt-1 text-muted text-center text-small navbar-dark bg-dark footer">
-//                 <span>© Copyright</span>
-//             </footer>
-//
-//         </div>
-//     )
-// }
